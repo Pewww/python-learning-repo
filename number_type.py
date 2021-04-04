@@ -16,3 +16,12 @@ num2 = 3
 
 print(num / num2) # 3.3333...5
 print(num // num2) # 3
+
+aa = 3
+bb = 5
+
+print(aa, bb)
+
+aa, bb = bb, aa
+
+print(aa, bb)

@@ -51,3 +51,11 @@ arr.remove(7)
 print(arr)
 
 print(arr.count(6))
+
+test = [1, 2, 3]
+
+copied1 = test
+copied2 = test[:]
+
+print(id(test) == id(copied1)) # True
+print(id(test) == id(copied2)) # True
